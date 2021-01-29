@@ -1,6 +1,6 @@
 import React from 'react'; 
 import useStyles from './productStyles'; 
-import { Card,  CardMedia, CardContent, CardActions, Typography, IconButton, Button} from '@material-ui/core'; 
+import { Card,  CardMedia, CardContent, CardActions, Typography, Button} from '@material-ui/core'; 
 import AddShoppingCartIcon from '@material-ui/icons/AddShoppingCart';
 
 
@@ -16,10 +16,11 @@ const Product = ({product, onAddToCart}) => {
                 className={classes.media}
                 image={product.media.source}
                 title={product.name}
+                style={{paddingTop: '85.25%'}}
             />
             <CardContent>
                 <div className={classes.cardContent}>
-                    <Typography variant='h5' gutterBottom>
+                    <Typography variant='h6' gutterBottom>
                          {product.name}
                     </Typography>
                     <Typography variant='h5'>
