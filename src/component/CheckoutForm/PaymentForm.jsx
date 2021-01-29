@@ -110,6 +110,11 @@ const PaymentForm = ({
                    </form>
                  )}  
               </ElementsConsumer>
+              <br/>
+              <br/>
+              <Typography variant='p'>
+                *Digite o número "42" em todos os campos  do cartão de crédito
+            </Typography>
            </Elements>
         </>
     )

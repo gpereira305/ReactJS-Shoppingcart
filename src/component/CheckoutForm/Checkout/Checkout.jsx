@@ -46,9 +46,10 @@ const Checkout = ({cart, order, onCaptureCheckout, error, handleEmptyCart}) => {
     const timeout = () => { 
        setTimeout(() => {
         setIsFinished(true);
-        handleEmptyCart()
+        handleEmptyCart();
 
-       }, 4000)
+       }, 8000)
+       
     };
 
 
@@ -82,10 +83,8 @@ const Checkout = ({cart, order, onCaptureCheckout, error, handleEmptyCart}) => {
             <Typography variant='h5'>Obrigado pela compra!</Typography>
             <Divider className={classes.divider}/> 
         </div> 
-         <br/>
-         <Button component={Link} to='/' variant='outlined' type='button'>
-           Voltar à Home  
-         </Button>
+         <br/> 
+   
       </>
 
     ) : ( 
@@ -93,24 +92,7 @@ const Checkout = ({cart, order, onCaptureCheckout, error, handleEmptyCart}) => {
              <CircularProgress/>
         </div>
     );
-
-    if(error){ 
-        <> 
-           <Typography variant='h5'>Error: {error}</Typography> 
-           <br/>
-           <Button 
-              component={Link}
-              to='/' variant='outlined'
-              type='button'
-            >
-                Voltar à Home 
-           </Button>
-        </>
-        
-    }; 
-    
-    
-
+ 
 
 
 
@@ -150,8 +132,9 @@ const Checkout = ({cart, order, onCaptureCheckout, error, handleEmptyCart}) => {
                  { activeStep === steps.length
                     ? <OrderConfirmation/> 
                     : checkoutToken && <Form/>  
-                 }
-             </Paper>
+                 } 
+             </Paper> 
+
          </main>   
         </>
     )
