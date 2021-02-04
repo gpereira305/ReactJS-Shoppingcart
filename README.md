@@ -32,7 +32,18 @@ Para ter essa aplicação rodando em máquina local certifique se de ter o Node 
 
 
 ## Demo
-![](images/paper-scissors-spock.gif)
+Homepage
+![homepage](https://user-images.githubusercontent.com/66249777/106831541-dde2dc00-666e-11eb-9781-fca035d429c6.png)
+
+Shopping Cart
+![carrinho](https://user-images.githubusercontent.com/66249777/106831573-e804da80-666e-11eb-98de-ceda507cff56.png)
+
+Checkout
+![checkout](https://user-images.githubusercontent.com/66249777/106831609-f3f09c80-666e-11eb-8634-37903627f3bf.png)
+
+Responsiveness
+![responsive](https://user-images.githubusercontent.com/66249777/106831633-fe129b00-666e-11eb-8758-6b9e76d4bc6a.png)
+
 
 
 
