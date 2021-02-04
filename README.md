@@ -24,7 +24,7 @@ Esse projeto contém as seguintes tecnologias:
 * Material-UI
 	
 ## Installation
-Para ter essa aplicação rodando em máquina local certifique se de ter o Node instalando, faça o git clone, abra o terminal na raiz do projeto, execute “npm install” para instalar dependências necessária e por fim execute “npm start” para ser visualizado no browser. 
+Para ter essa aplicação rodando em máquina local certifique se de ter o Node instalando, faça o git clone, abra o terminal na raiz do projeto, execute “npm install” para instalar dependências necessárias e por fim execute “npm start” para ser visualizado no browser. 
  
 
 ## License
